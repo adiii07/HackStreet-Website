@@ -1,0 +1,60 @@
+.landing-page {
+    background-image: url('/images/Backgrounds/langing-bg-dark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20vh 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page div {
+    width: 50%;
+    /* margin-bottom: 100; */
+}
+
+.landing-page img {
+    width: 37%;
+}
+
+@media (max-width: 768px) {
+    .landing-page {
+        height: 180vh;
+        padding: 14vh 0;
+    }
+
+    .landing-page img {
+        width: 100%;
+        order: 1;
+    }
+
+    .landing-page div {
+        width: 80%;
+        margin: 0;
+        order: 2;
+    }
+}
+
+@media (max-width: 550px) {
+    .landing-page {
+        height: 160vh;
+    }
+    
+    .landing-page img {
+        width: 100%;
+    }
+}
+
+.landing-page h2 {
+    margin: 20px 0 35px 0;
+}
+
+.landing-page a {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #FF00FF;
+    border-radius: 10px;
+}

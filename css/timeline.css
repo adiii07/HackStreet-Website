@@ -1,0 +1,34 @@
+#timeline {
+    background-color: #00091E;
+    padding: 5vh 5vw;
+}
+
+.overflow {
+    overflow-x: scroll;
+}
+
+.dates {
+    width: 200vw;
+    margin: 40px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.date {
+    text-align: center;
+}
+
+.date h3 {
+    font-size: larger;
+}
+
+.date p {
+    font-size: larger;
+}
+
+@media screen and (max-width: 768px) {
+    .dates {
+        width: 400vw;
+    }
+}

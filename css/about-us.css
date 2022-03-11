@@ -1,0 +1,47 @@
+#about-us {
+    background-color: #00091E;
+    padding: 40px 10%;
+}
+
+#about-us h3 {
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#about-us p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#about-us img {
+    width: 60vw;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    #about-us img {
+        width: 80vw;
+    }
+}
+
+#our-team {
+    background-color: #EFEFFF;
+    padding: 5vh 5vw;
+}
+
+.members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.member {
+    background-color: grey;
+    width: 250px;
+    height: 300px;
+    margin: 40px 60px;
+    border-radius: 10px;
+}
