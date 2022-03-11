@@ -88,13 +88,13 @@
 
 .silver:hover .prize{
     /* border: 2px solid silver; */
-    background-color: silver;
+    background-color: #C0C0C0;
 }
 .gold:hover .prize{
     /* border: 2px solid gold; */
-    background-color: gold;
+    background-color: #FFD700;
 }
 .bronze:hover .prize{
     /* border: 2px solid rgb(160, 108, 48); */
-    background-color: rgb(160, 108, 48);
+    background-color: #cd7f32;
 }
