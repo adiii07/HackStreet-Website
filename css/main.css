@@ -47,7 +47,7 @@ nav {
 
 .menu li:hover {
     background-color: #414e6db0;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: 0.3s ease;
    }
 
