@@ -13,13 +13,14 @@ td.content{
 } */
 
 #details {
-    
-    background-color: #EFEFFF;
+    /* background-color: #EFEFFF; */
+    background-color: #00091E;
     padding: 40px;
 }
 
 #details h3 {
-    color: black;
+    /* color: black; */
+    color: white;
     font-size: 24px;
     margin-bottom: 15px;
 }
